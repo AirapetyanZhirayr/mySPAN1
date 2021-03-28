@@ -1,4 +1,7 @@
-from layers import *
+try:
+  from layers import *
+except:
+  from mySPAN1.layers import *
 
 
 class Model(nn.Module):
